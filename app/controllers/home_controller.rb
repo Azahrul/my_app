@@ -4,7 +4,7 @@ class HomeController < ApplicationController
   end
 
   def read
-    @article = Article.where(id: params[:article_id])
+    @article = Article.where(id: params[:article_id]).first
   end
 end
 
