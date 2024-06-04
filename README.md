@@ -42,3 +42,4 @@ atributnya adalah
 4. membuat halaman index
 5. membuat list article di halaman index
 6. membuat halaman baca
+7. routing halaman baca
