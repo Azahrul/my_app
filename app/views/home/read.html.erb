@@ -19,3 +19,16 @@
     <%= submit_tag 'kirim'%>
 <%- end %>
 </div>
+
+<div>
+<ul>
+    <%- for comment in @article.comments do %>
+    <li>
+    <span><%= comment.comment %></span>
+        <small>
+        Pada <%= comment.created_at.to_s(:short) %>
+        </small>
+    </li>
+    <%- end %>
+</ul>
+</div>
