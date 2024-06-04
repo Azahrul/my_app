@@ -45,4 +45,5 @@ atributnya adalah
 7. routing halaman baca
 8. membuat untuk menambahkan komentar
 9. menampilkan hasil koment pada halaman baca
-10. evaluasi dan perapihan
+10. evaluasi, navigasi dan perapihan
+11. membuat halaman about
