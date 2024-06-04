@@ -19,5 +19,10 @@ class HomeController < ApplicationController
   end
   def About
   end
+  
+  def search
+    @articles = Article.where(title: params[:keyword])
+  end
+
 end
 

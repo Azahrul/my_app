@@ -47,3 +47,4 @@ atributnya adalah
 9. menampilkan hasil koment pada halaman baca
 10. evaluasi, navigasi dan perapihan
 11. membuat halaman about
+12. membuat halaman searching
