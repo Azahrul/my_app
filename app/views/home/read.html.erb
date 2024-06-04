@@ -10,3 +10,12 @@
         Oleh <%= @article.user.full_name %>
         Pada <%= @article.created_at.to_s(:short) %>
         </small>
+<div>
+<%= form_tag save_comment_path(article_id: @article.id) do %>
+    <span> Tambajkan Komentar </span>
+    <br/>
+    <%= text_area_tag 'comment', '' %>
+    <br/>
+    <%= submit_tag 'kirim'%>
+<%- end %>
+</div>

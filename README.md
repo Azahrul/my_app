@@ -43,3 +43,5 @@ atributnya adalah
 5. membuat list article di halaman index
 6. membuat halaman baca
 7. routing halaman baca
+8. membuat untuk menambahkan komentar
+9. menampilkan hasil koment pada halaman baca
