@@ -50,4 +50,6 @@ atributnya adalah
 12. membuat halaman searching
 13. membuat berdasarkan keyword
 14. membuat berdasarkan potongan keyword
+15. membuat halaman administrator
+
 
