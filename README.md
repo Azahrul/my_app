@@ -48,3 +48,6 @@ atributnya adalah
 10. evaluasi, navigasi dan perapihan
 11. membuat halaman about
 12. membuat halaman searching
+13. membuat berdasarkan keyword
+14. membuat berdasarkan potongan keyword
+

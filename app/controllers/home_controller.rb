@@ -17,11 +17,14 @@ class HomeController < ApplicationController
       redirect_to read_path(article_id: @article.id, notice: 'error')
     end
   end
+
   def About
   end
   
   def search
-    @articles = Article.where(title: params[:keyword])
+    keyword = params[:keyword]
+    @articles = Article.where("title LIKE '%#{keyword}%'")
+  
   end
 
 end
